@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="maincolor">#6ea14f</color>
+    <color name="goodscolor">#bf8d5b</color>
+    <color name="usercolor">#b05bbf</color>
+    <color name="cartcolor">#dac048</color>
+    <color name="home_title">#db3450</color><!--主题  -->
+    <color name="gray">#C5C5C5</color><!--三级灰级  -->
+    <color name="one">#525252</color><!--一级黑  -->
+    <color name="two">#828282</color><!--二级级黑  -->
+
+    <color name="main_background">#F1F1F1</color><!-- 背景色 -->
+    <color name="title">#21706d</color>
+    <color name="white">#FFFFFF</color> <!-- 白色 -->
+    <color name="black">#000000</color>
+    <color name="shopping_cart_home">#FAFAFA</color>
+    <color name="homepage_recommend_item">#165CBC</color><!-- 亮蓝 -->
+    <color name="homepage_phone_one">#68A1FB</color><!-- 天蓝色 -->
+    <color name="homepage_car_one">#F97374</color><!-- 橙红色 -->
+    <color name="homepage_appliance">#F8B95A</color><!-- 米黄色 -->
+    <color name="bright_green">#41D1B8</color><!-- 亮绿 -->
+    <color name="press">#dfdfdf</color>
+    <color name="red">#FF0000</color><!-- 红色 -->
+    <color name="rrr">#FFFCDA</color>
+    <color name="tb_munion_item_force">#e3e3e3</color>
+    <color name="blue">#ffccddff</color>
+    <color name="grey">#58616d</color>
+    <color name="darkgrey">#ff404040</color>
+    <color name="toasterro">#9fd524</color>
+    <color name="lightgrey">#ff888888</color>
+    <color name="semitransparent">#80000000</color>
+    <color name="lightransparent">#a0000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="translarent">#88888888</color>
+    <color name="navpage">#FFE1E8EB</color>
+    <color name="yellow">#FFE2E929</color>
+    <color name="homepage_select_color" >#88888888</color>
+</resources>

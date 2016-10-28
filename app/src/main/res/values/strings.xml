@@ -1,0 +1,641 @@
+<resources>
+    <string name="app_name">全民搭会</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="homepage">首页</string>
+    <string name="all_commodity">所有商品</string>
+    <string name="latest_announced">最新揭晓</string>
+    <string name="shopping_cart">购物车</string>
+    <string name="my_shopping">我的购物</string>
+    <string name="tb_munion_tip_download_prefix">正在下载:</string>
+    <string name="shopping">期</string>
+    <string name="lates_Announced">最新揭晓</string>
+    <string name="bask_in_a_single_share">晒单分享</string>
+    <string name="Sentiment_is_recommended">人气推荐</string>
+    <string name="The_value_of">价值：￥</string>
+    <string name="Has_been_involved_in">已参与</string>
+    <string name="The_total_number_should_be">总需人数</string>
+    <string name="The_remaining">剩余</string>
+    <string name="for_purchasing">限购</string>
+    <string name="purchase_purchase_immediately">立即全民搭会</string>
+    <string name="phone_one">手机一元</string>
+    <string name="sum">1、求和：</string>
+    <string name="the_above_gougou_time">（上面100条云购记录时间取值相加之和）</string>
+    <string name="mod">2、取余：</string>
+    <string name="modd">余数</string>
+    <string name="result">3、结果：</string>
+    <string name="one_hundred_sum">（100条时间记录之和）</string>
+    <string name="the_goods_involved_in_number">（本商品总需参与人次）</string>
+    <string name="name_of_commodity">商品名称：</string>
+    <string name="computer_one">电脑一元</string>
+    <string name="car_one">汽车一元</string>
+    <string name="appliance_one">家电一元</string>
+    <string name="the_last_purchase">最后100条全站购买记录</string>
+    <string name="announced_by_time">截止揭晓时间</string>
+    <string name="take_the_above_numerical">取以上数值结果得:</string>
+    <string name="state1">未提交收获地址</string>
+    <string name="state2">等待发货</string>
+    <string name="state3">等待收货</string>
+    <string name="state4">已确认收货</string>
+    <string name="state10">交易完成</string>
+    <string name="state11">交易取消</string>
+    <string name="all_the_goods">所有商品</string>
+    <string name="software_center">最新揭晓</string>
+    <string name="all_categories">全部分类</string>
+    <string name="has_announced">已揭晓</string>
+    <string name="being_fough">即将揭晓</string>
+    <string name="cimmidity_details">商品详情</string>
+    <string name="commodity_prices">商品价格：</string>
+    <string name="is_being_announced">正在揭晓中</string>
+    <string name="graphic_details_title">商品图文详情</string>
+    <string name="all_shopping_record">所有购物记录</string>
+    <string name="graphic_details">图文详情</string>
+    <string name="products_introduction">商品介绍</string>
+    <string name="advice">(建议在wifi下使用)</string>
+    <string name="guangdong_province">广东省</string>
+    <string name="chaozhou">潮州市</string>
+    <string name="all_money">积分明细:</string>
+    <string name="shopping_issue">购物期号：</string>
+    <string name="all_shopping">消费明细：</string>
+    <string name="the_first">第</string>
+    <string name="has_been_discontinued">已停售</string>
+    <string name="clean_up_the_complete">清理完成</string>
+    <string name="goods_bask_in_single">商品晒单</string>
+    <string name="one_yuan_shopping_immediately">立即夺宝</string>
+    <string name="shopping_cart1">加入购物车</string>
+    <string name="phone">手机数码</string>
+    <string name="gift_bags">礼品箱包</string>
+    <string name="on_the_cross">上传中...</string>
+    <string name="computer">电脑办公</string>
+    <string name="household_appliances">家用电器</string>
+    <string name="makeup">化妆个护</string>
+    <string name="the_results_come_out_immediately">正在计算中，结果马上揭晓...</string>
+    <string name="jewelry">钟表首饰</string>
+    <string name="other">其他商品</string>
+    <string name="sentiment">人气</string>
+    <string name="value_low_to_high">价值(由低到高)</string>
+    <string name="announced_the_result">揭晓结果</string>
+    <string name="value_high_to_low">价值(由高到低)</string>
+    <string name="buy_code">购物码</string>
+    <string name="the_latest">最新</string>
+    <string name="to_participate_in_this_purchasing">参与</string>
+    <string name="to_participate_in_this_purchasing_two">本购参与：</string>
+    <string name="need_more">总需人次:</string>
+    <string name="to_settle_accounts">去结算</string>
+    <string name="total">共</string>
+    <string name="shopping_cart_frament_number">个商品  合计</string>
+    <string name="yuan">元</string>
+    <string name="comments">评论</string>
+    <string name="all">全部</string>
+    <string name="record_all">所有云购记录</string>
+    <string name="people_buy">购买人数</string>
+    <string name="people_buy1">参与人次</string>
+    <string name="goods_value">商品价值：</string>
+    <string name="experience_value">经验值:</string>
+    <string name="in_the_land">登录中,请稍等...</string>
+    <string name="to_view_more">查看更多</string>
+    <string name="announced_for">购（正在进行中...）</string>
+    <string name="in_the_ongoing">正在进行中</string>
+    <string name="error1">出错</string>
+    <string name="go_to_prepaid_phone">去充值</string>
+    <string name="available_balance">可用余额:</string>
+    <string name="shopping_record">购物记录</string>
+    <string name="withdrawal">兑现</string>
+    <string name="the_balance_payment">余额支付</string>
+    <string name="integral">积分</string>
+    <string name="available_integral">可用积分</string>
+    <string name="my_shopping_record">我的购物记录</string>
+    <string name="reward_time">奖励时间</string>
+    <string name="get_the_goods">获得的商品</string>
+    <string name="my_sun_list">我的晒单</string>
+    <string name="exit_the_success">退出成功</string>
+    <string name="the_winning_record">中奖记录</string>
+    <string name="account_details">账户明细</string>
+    <string name="get_goods">获得商品</string>
+    <string name="the_search_results">”的搜索结果</string>
+    <string name="software_balance_integral">软件余额积分</string>
+    <string name="level">等级</string>
+    <string name="reward_rules1">奖励规则是一个可以通过下载和使用软件赚来的积分</string>
+    <string name="a_about">个关于“</string>
+    <string name="reward_description_content">1.可以选择消费\n\n2.可以提现和充值话费</string>
+    <string name="reward_description">奖励描述</string>
+    <string name="your_blessing">您的可用积分：</string>
+    <string name="to_check_the_calculation_details">查看计算详情</string>
+    <string name="pay_treasure_to_account">支付宝账号</string>
+    <string name="please_enter_your_paypal_account">请输入您的支付宝账号</string>
+    <string name="withdrawal_amount_is">提现金额100元起</string>
+    <string name="withdrawal_amount_is2">提现金额50元起</string>
+    <string name="software_brand">软件名称</string>
+    <string name="use_rewards">使用奖励</string>
+    <string name="download_the_reward">下载奖励</string>
+    <string name="use_your_time">使用时间</string>
+    <string name="software_list">软件列表</string>
+    <string name="reward_amount">奖励金额</string>
+    <string name="sign_in_to_reward">签到奖励</string>
+    <string name="prepaid_phone_calls">充值话费</string>
+    <string name="reward_rules">奖励规则</string>
+    <string name="the_rules">规则</string>
+    <string name="invite_friends_to_reward">邀请好友奖励1元，以后好友消费的1%也奖励给你</string>
+    <string name="in_the_download">开始下载...</string>
+    <string name="pay_for_success">支付成功</string>
+    <string name="pay_for_failure">支付失败</string>
+    <string name="popular_goods">人气商品</string>
+    <string name="the_latest_goods">最新商品</string>
+    <string name="your_balance_is_insufficient">您的余额不足</string>
+    <string name="friends">好友</string>
+    <string name="your_remaining_balance">您的剩余余额</string>
+    <string name="your_available_balance">您的可用余额</string>
+    <string name="buy_buy_prepaid_phone">购物充值</string>
+    <string name="goods_purchased">商品购买</string>
+    <string name="feedback_information_is_incomplete">反馈信息不完整哦</string>
+    <string name="no_more_data">没有更多数据可以显示</string>
+    <string name="main_user_failure">用户令牌错误</string>
+    <string name="upload_pictures_to_upper_limit">上传图片达到上限</string>
+    <string name="main_user_efficacy">用户已经失效</string>
+    <string name="the_user">用户</string>
+    <string name="main_user_login">用户失效，请重新登录</string>
+    <string name="please_select_the_amount_of">请选择金额</string>
+    <string name="in_computing">正在计算中...</string>
+    <string name="the_remaining_points">您的剩余积分</string>
+    <string name="your_lack_of_integration">您的积分不足</string>
+    <string name="shopping_teenager">购物小将</string>
+    <string name="shopping_air_vice_marshal">购物少将</string>
+    <string name="shopping_lieutenant_general">购物中将</string>
+    <string name="shopping_admiral">购物上将</string>
+    <string name="shopping_general">购物大将</string>
+    <string name="shopping_the_general">购物将军</string>
+    <string name="use_the_new_address">使用新地址</string>
+    <string name="incomplete_information">信息填写不完整</string>
+    <string name="reward_blessing">奖励福分</string>
+    <string name="A_total_purchase_purchase">总共购物：</string>
+    <string name="shopping_cart_is_empty">购物车为空</string>
+    <string name="the_personal_data">个人信息</string>
+    <string name="binding_mobile_phone_number">绑定手机号</string>
+    <string name="the_consignee">收货人</string>
+    <string name="did_not_fill_in_the_consignee">未填写收货人</string>
+    <string name="did_not_fill_in_the_contact_number">未填写联系号码</string>
+    <string name="did_not_fill_in_shipping_address">未填写详细地址</string>
+    <string name="did_not_fill_in_the_zip_code">请输入正确的邮编</string>
+    <string name="did_not_fill_in_the_area">未填写所在区域</string>
+    <string name="security_settings">账户安全</string>
+    <string name="help_center">帮助中心</string>
+    <string name="feedback">意见反馈</string>
+    <string name="immediately_on">立即登录</string>
+    <string name="not_logged_in">您当前状态为未登录，可能导致购物车为空</string>
+    <string name="customer_service_hotline">客服热线</string>
+    <string name="open_no_pic_model">开启无图模式</string>
+    <string name="clear_the_cache">清理缓存</string>
+    <string name="about_us">关于我们</string>
+    <string name="the_service_agreement">服务协议</string>
+    <string name="logged_out">退出登录</string>
+    <string name="log_into_protect">登陆保护</string>
+    <string name="please_enter_the_correct_format">请输入正确格式</string>
+    <string name="advice_figure">建议在3G环境下开启节省流量</string>
+    <string name="the_time_of_the_service">400-850-8990(工作时间:09:00-21:00)</string>
+    <string name="head_portrait">头像</string>
+    <string name="nick_name">昵称</string>
+    <string name="sex">性别</string>
+    <string name="change_the_password">修改密码</string>
+    <string name="choose_to_buy_a_few">选择购数</string>
+    <string name="person_time">人次</string>
+    <string name="birthday">生日</string>
+    <string name="hometown">家乡</string>
+    <string name="individuality_signature">个性签名</string>
+    <string name="birthday_set">一年内只能修改一次</string>
+    <string name="qq_standby">备用联系信息,不作公开</string>
+    <string name="cancel">取消</string>
+    <string name="woman">女</string>
+    <string name="man">男</string>
+    <string name="nick_change">昵称</string>
+    <string name="secrecy">保密</string>
+    <string name="complaints_suggestions">投诉建议</string>
+    <string name="commodity_distribution">商品配送</string>
+    <string name="after_sales_service">售后服务</string>
+    <string name="taking_pictures">拍照</string>
+    <string name="select_from_the_album">从相册选取</string>
+    <string name="complete">完成</string>
+    <string name="call">呼叫</string>
+    <string name="login_password">登录密码</string>
+    <string name="modification">修改</string>
+    <string name="confirm_clear_the_cache">确定清除缓存么？</string>
+    <string name="pay_the_password">支付密码</string>
+    <string name="did_not_open">未开启</string>
+    <string name="small_free_password">小额免密码设置</string>
+    <string name="is_not_set">未设置</string>
+    <string name="mobile_phone_number_binding">手机号绑定</string>
+    <string name="binding_phone">手机绑定</string>
+    <string name="set">设置</string>
+    <string name="email_address">邮箱绑定</string>
+    <string name="binding_email">绑定邮箱</string>
+    <string name="fuhao">￥</string>
+    <string name="nickname_change_prompt">昵称长度为2-20个字符，由汉字、字母、数字、"_-"组成</string>
+    <string name="please_enter_the_email_address">请输入邮箱地址</string>
+    <string name="please_enter_code">请输入验证码</string>
+    <string name="verification_code">验证码</string>
+    <string name="footnotes">Copyright © 2011-2016,版权所有1yyg.com\n粤ICP09213115号-1</string>
+    <string name="unbounded">未绑定</string>
+    <string name="log_in_to_protect">登录保护</string>
+    <string name="please_enter_correct_email_address">请输入正确的邮箱地址</string>
+    <string name="please_enter_the_commodity_keywords">请输入商品关键字</string>
+    <string name="log_in_to_protect_prompt">关注官方微信后,登录您的账号时,将使用微信方式提醒您,防止盗号。</string>
+    <string name="ensure">确定</string>
+    <string name="password_change">登录密码修改</string>
+    <string name="address_management">地址管理</string>
+    <string name="share">邀请好友</string>
+    <string name="about_ma">扫描二维码,让您的朋友\n也可以下载全民搭会</string>
+    <string name="qq_number_change">QQ号修改</string>
+    <string name="account_name">帐户名:</string>
+    <string name="current_password">当前密码</string>
+    <string name="address">地区</string>
+    <string name="new_password">新密码</string>
+    <string name="confirm_new_password">确认新密码</string>
+    <string name="submit">提交</string>
+    <string name="say_two_words">说两句吧！</string>
+    <string name="version">全民搭会 Android </string>
+    <string name="bask_in_single_details">晒单详情</string>
+    <string name="please_enter_the_contact_information">请输入联系方式</string>
+    <string name="precious_opinion">欢迎您给我们留下宝贵的意见！</string>
+    <string name="modify_the_success">修改成功</string>
+    <string name="please_enter_the_password">请输入6-20位密码</string>
+    <string name="please_enter_a_new_password">请输入新密码</string>
+    <string name="enter_a_new_password_again">重复输入新密码</string>
+    <string name="save">保存</string>
+    <string name="cancel_the_download">取消下载</string>
+    <string name="the_balance_of_my">我的余额</string>
+    <string name="currently_the_wifi_network">您正在使用非wifi网络，继续下载将会产生流量费用</string>
+    <string name="continue_to_download">继续下载</string>
+    <string name="helpful_hints">友情提示：在次日继续使用还能获得更多奖励</string>
+    <string name="fill_in_the_address">填写收货地址</string>
+    <string name="waiting_for_audit">等待审核</string>
+    <string name="pay_the_password_set">支付密码设置</string>
+    <string name="not_approved">未审核通过</string>
+    <string name="approved">审核通过</string>
+    <string name="verify_the_phone_number">验证手机号:</string>
+    <string name="set_a_small_pay_password_from_close_to_open">设置小额免密需先开启支付密码</string>
+    <string name="get_verification_code">获取验证码</string>
+    <string name="bask_in_a_single_success">晒单成功</string>
+    <string name="the_next_step">下一步</string>
+    <string name="prompt">换了手机号或遗失?请致电客服申诉解除绑定</string>
+    <string name="verification_code_has_been_sent">验证码已发送到您的邮箱</string>
+    <string name="pull_to_refresh_pull_label">下拉刷新</string>
+    <string name="pull_to_refresh_release_label">放开以刷新</string>
+    <string name="the_theme">主题：</string>
+    <string name="bask_in_incomplete_information">晒单信息不完整</string>
+    <string name="content">内容：</string>
+    <string name="image">图片：</string>
+    <string name="pull_to_refresh_refreshing_label">正在刷新...</string>
+    <string name="ongoing">进行中</string>
+    <string name="congratulations">恭喜</string>
+    <string name="china">中国</string>
+    <string name="the_remaining_passengers">剩余人次：</string>
+    <string name="gou_ongoing">购（进行中）</string>
+    <string name="be_in_the">揭晓中</string>
+    <string name="within_a_week">一周内</string>
+    <string name="in_a_month">一个月内</string>
+    <string name="enter_the_password">请输入8-20位密码</string>
+    <string name="three_months">三个月内</string>
+    <string name="net_silver_top_up">网银充值</string>
+    <string name="set_password_prompt">密码由8-20位半角字符(数字、字符、符号)至少2种组成，区分大小写</string>
+    <string name="prepaid_phone_card_prepaid_phone">充值卡充值</string>
+    <string name="registration_completed">注册完成</string>
+    <!-- Just use standard Pull Down String when pulling up. These can be set for languages which require it -->
+    <string name="pull_to_refresh_from_bottom_pull_label"> 上拉加载</string>
+    <string name="pull_to_refresh_from_bottom_release_label">放开以加载</string>
+    <string name="pull_to_refresh_from_bottom_refreshing_label">正在加载...</string>
+    <string name="add_a_shipping_address">添加收货地址</string>
+    <string name="shipping_address">收货地址</string>
+    <string name="please_enter_the_recipient_name">请输入收件人姓名</string>
+    <string name="please_enter_the_phone_number">请输入手机号码</string>
+    <string name="phone_number">手机号码</string>
+    <string name="telephone_number">电话号码</string>
+    <string name="fixed_telephone">固定电话</string>
+    <string name="enter_fixed_telephone">固定电话(可不填)</string>
+    <string name="inviter">邀请人（选填）</string>
+    <string name="please_enter_the_landline">请输入固定电话,如0755-xx(选填)</string>
+    <string name="please_select_a_region">请选择所在区域</string>
+    <string name="please_select_the_street">请选择所在街道</string>
+    <string name="using_the_software_bonus_points">使用软件奖励</string>
+    <string name="please_fill_in_the_details">请填写详细地址</string>
+    <string name="details_address">详细地址</string>
+    <string name="small_dense_set_free">小额免密设置</string>
+    <string name="invite_friends_bonus_points">奖励</string>
+    <string name="please_fill_in_the_zip_code">请填写邮编</string>
+    <string name="please_enter_account_and_password">请输入账号和密码</string>
+    <string name="set_to_the_default_address">设为默认地址</string>
+    <string name="your_account_balance">您的账户余额:￥</string>
+    <string name="fifty_money">50元</string>
+    <string name="one_hundred_yuan">100元</string>
+    <string name="two_hundred_yuan">200元</string>
+    <string name="five_hundred_yuan">500元</string>
+    <string name="one_thousand_yuan">1000元</string>
+    <string name="enter_the_amount">输入金额</string>
+    <string name="please_select_a_payment_method">选择支付方式</string>
+    <string name="theamount_o">金额（元）</string>
+    <string name="confirm_prepaid_phone">确认充值</string>
+    <string name="prepaid_phone_card_number">充值卡号</string>
+    <string name="prepaid_phone">充值</string>
+    <string name="prepaid_phone_password">充值密码</string>
+    <string name="please_enter_the_card_number_pure_numbers">请输入12位纯数字卡号</string>
+    <string name="enter_the_password_for_eight_prepaid_phone_cards">请输入8位充值卡密码</string>
+    <string name="top_up_detail">积分明细</string>
+    <string name="statement">消费明细</string>
+    <string name="consumption">消费</string>
+    <string name="prepaid_phone_time">时间</string>
+    <string name="please_select_a">请选择</string>
+    <string name="top_up_amount">充值金额</string>
+    <string name="type">类型</string>
+    <string name="capital_channel">资金渠道</string>
+    <string name="spending_time">消费时间</string>
+    <string name="consumption_amount">消费金额</string>
+    <string name="click_on_the_or_load_more">上拉加载更多</string>
+    <string name="no_record">暂无记录</string>
+    <string name="business_card">名片</string>
+    <string name="bask_in_a_single">晒单</string>
+    <string name="personal_card">个人名片</string>
+    <string name="settlement">结算</string>
+    <string name="the_total_payment">总需支付金额:</string>
+    <string name="to_pay_of">去支付</string>
+    <string name="unfinished">未完成</string>
+    <string name="ecurrency_payment_amount">需网银支付金额:</string>
+    <string name="recent_search">最近搜索</string>
+    <string name="top_search">热门搜索</string>
+    <string name="remove_searches">清除搜索记录</string>
+    <string name="search">搜索</string>
+    <string name="landing_or_registered">登录/注册</string>
+    <string name="login">登录</string>
+    <string name="in_the_clear">清除缓存中...</string>
+    <string name="mobile_phone_number_or_email">手机号或邮箱</string>
+    <string name="enter_the_password_for_more_than_six">请输入8位以上密码</string>
+    <string name="forgot_password">忘记密码?</string>
+    <string name="the_new_user_registration">新用户注册</string>
+    <string name="registration">注册</string>
+    <string name="choose_the_way_to_log_in">选择登录方式</string>
+    <string name="welcome_to_one_yuan_to_buy_to_buy">欢迎来到全民搭会</string>
+    <string name="i_have_read_and_also">我已阅读并同意</string>
+    <string name="one_yuan_to_buy_purchase_service_agreement">全民搭会服务协议</string>
+    <string name="the_authentication">身份验证</string>
+    <string name="already_send_verification_code">已将验证码发送到您的手机,请注意查收</string>
+    <string name="to_resend">重新发送</string>
+    <string name="if_not_receive_validation_message">如未收到验证短信,请在</string>
+    <string name="Seconds_after_click_resend">秒后点击重新发送</string>
+    <string name="to_send_information">如未收到验证短信,请点击重新发送</string>
+    <string name="find_password">找回密码</string>
+    <string name="a_purchase_winner">上一购获得者</string>
+    <string name="Out_of_time">揭晓时间：</string>
+    <string name="resend">发送</string>
+    <string name="purchase_purchase_time">购物时间：</string>
+    <string name="lucky_code">幸运购物码：</string>
+    <string name="announced_the_countdown">揭晓倒计时：</string>
+    <string name="participation_number">参与人次：</string>
+    <string name="error">网络有点不给力，请检查网络</string>
+    <string name="goods_state">商品状态：</string>
+    <string name="yungou_time">购物时间：</string>
+    <string name="yungou_time1">购物时间</string>
+    <string name="change_data">转换数据</string>
+    <string name="set_the_password">设置密码</string>
+    <string name="This_user_has_not_registered">该用户未注册</string>
+    <string name="set_up_the_success">设置成功</string>
+    <string name="isRegistered">该用户已经注册</string>
+    <string name="login_the_success">登录成功</string>
+    <string name="member_account">会员账号</string>
+    <string name="winner">获得者：</string>
+    <string name="shopping_time">购物时间：</string>
+    <string name="get">获得</string>
+    <string name="calculation_details">计算详情</string>
+    <string name="the_total_score">总积分为：</string>
+    <string name="the_zone_for_purchasing">女性专区</string>
+    <string name="a_total_of_participation">获得者本购总共参与</string>
+    <string name="lucky_cloud_buying_a_new_phone_number">幸运云购号：</string>
+    <!-- 微信 -->
+    <string name="app_back">返回</string>
+    <string name="app_ok">确定</string>
+    <string name="app_cancel">取消</string>
+    <string name="app_continue">继续</string>
+    <string name="app_tip">提示</string>
+    <string name="app_send">发送</string>
+    <string name="app_set">设置</string>
+    <string name="app_save">保存</string>
+    <string name="app_delete">删除</string>
+    <string name="app_nextstep">下一步</string>
+    <string name="app_prevstep">上一步</string>
+    <string name="app_finish">完成</string>
+    <string name="app_find">查找</string>
+    <string name="app_edit">编辑</string>
+
+    <!-- applet -->
+    <string name="applet_secimg_title">填写验证码</string>
+    <string name="applet_secimg_change">换一张图片</string>
+    <string name="applet_seccode_tip">验证码不能为空</string>
+    <string name="applet_seccode_fail_tip">验证码错误，请重新输入</string>
+
+    <!-- verify -->
+    <string name="verify_password_null_tip">密码不能为空，请输入密码</string>
+
+    <!-- format -->
+    <string name="fmt_date">M月d日</string>
+    <string name="fmt_longdate">yyyy年M月d日</string>
+    <string name="fmt_datetime" formatted="false">M月d日 %skk:mm</string>
+    <string name="fmt_patime">kk:mm</string>
+    <string name="fmt_longtime" formatted="false">yyyy年M月d日 %skk:mm</string>
+    <string name="fmt_in60min" formatted="false">%d分钟前</string>
+    <string name="fmt_justnow">1分钟内</string>
+    <string name="fmt_dawn">凌晨</string>
+    <string name="fmt_morning">早上</string>
+    <string name="fmt_noon">中午</string>
+    <string name="fmt_afternoon">下午</string>
+    <string name="fmt_evening">晚上</string>
+    <string name="fmt_pre_yesterday">昨天</string>
+    <string name="fmt_iap_err" formatted="false">网络连接不可用，请稍候重试</string>
+
+    <string name="hello">Hello World, SDKSampleActivity!</string>
+    <string name="app_share">邀请</string>
+
+    <string name="enter">这是SDK_Sample的入口界面</string>
+    <string name="reg">将该app注册到微信</string>
+    <string name="goto_send">跳转到发消息界面</string>
+    <string name="goto_pay">跳转到支付界面</string>
+    <string name="goto_fav">跳转到收藏界面</string>
+    <string name="launch_wx">启动微信</string>
+    <string name="check_timeline_supported">检查是否支持发送到朋友圈</string>
+
+    <string name="send_to_wx_title">发送到微信</string>
+    <string name="get_from_wx_title">从微信接收</string>
+    <string name="show_from_wx_title">显示微信请求的消息</string>
+    <string name="pay_by_wx_title">通过微信支付</string>
+    <string name="prepay_id_wx_text">prepayid</string>
+    <string name="invoke_ip">invoke_ip</string>
+    <string name="prepay_id_value">wx20141126110244e3e4bc4e580111072793</string>
+
+
+    <string name="errcode_success">发送成功</string>
+    <string name="errcode_cancel">发送取消</string>
+    <string name="errcode_deny">发送被拒绝</string>
+    <string name="errcode_unknown">发送返回</string>
+
+    <string name="launch_from_wx">Launch From Weixin</string>
+
+    <!-- WXMediaMessage -->
+    <string name="input_openid">输入openid</string>
+    <string name="input_scope">输入scope</string>
+
+    <string name="send">发送到微信</string>
+    <string name="receive">从微信接收</string>
+
+    <string name="is_timeline">是否分享到朋友圈</string>
+    <string name="send_text">发送文本</string>
+    <string name="send_text_default">这段文字发送自微信SDK示例程序</string>
+
+    <string name="send_img">发送图片</string>
+    <string-array name="send_img_item">
+        <item>发送图片的二进制数据</item>
+        <item>发送图片的本地路径</item>
+        <item>发送图片的URL</item>
+    </string-array>
+    <string name="send_img_file_not_exist">文件不存在</string>
+
+    <string name="send_file">发送文件</string>
+    <string-array name="send_file_item">
+        <item>发送文件的二进制数据</item>
+        <item>发送文件的本地路径</item>
+    </string-array>
+    <string name="send_file_file_not_exist">文件不存在</string>
+
+    <string name="send_pic">发送照片</string>
+
+    <string name="send_music">发送音乐</string>
+    <string-array name="send_music_item">
+        <item>发送音乐url</item>
+        <item>发送低带宽音乐url</item>
+    </string-array>
+
+    <string name="send_video">发送视频</string>
+    <string-array name="send_video_item">
+        <item>发送视频url</item>
+        <item>发送低带宽视频url</item>
+    </string-array>
+
+    <string name="send_webpage">发送网页</string>
+    <string-array name="send_webpage_item">
+        <item>发送网页url</item>
+    </string-array>
+
+    <string name="send_appdata">发送app消息</string>
+    <string-array name="send_appdata_item">
+        <item>发送app文件本地路径</item>
+        <item>发送app二进制数据</item>
+        <item>发送无附件的app</item>
+    </string-array>
+
+    <string name="send_emoji">发送表情消息</string>
+    <string-array name="send_emoji_item">
+        <item>发送表情本地路径</item>
+        <item>发送表情二进制数据</item>
+    </string-array>
+
+    <string-array name="send_emoji_item_format">
+        <item>发送GIF图片</item>
+        <item>发送非GIF图片</item>
+    </string-array>
+
+    <!-- GetFromWXActivity -->
+    <string name="share_text_to_weixin">回应文本到微信</string>
+    <string name="share_text_default">这段文字回应自微信SDK示例程序</string>
+    <string name="share_url_to_weixin">回应URL到微信</string>
+    <string name="share_pic_to_weixin">回应图片到微信</string>
+    <string name="share_music_to_weixin">回应音乐到微信</string>
+    <string name="share_video_to_weixin">回应视频到微信</string>
+    <string name="share_appdata_to_weixin">回应app消息到微信</string>
+
+    <string name="register_as_weixin_app_sender">注册微信事件发送器</string>
+    <string name="get_token_from_weixin">获取微信访问Token</string>
+    <string name="unregister_from_weixin">从微信反注册</string>
+
+    <string name="show_from_wx_tip">这个界面用于显示微信向第三方app请求显示的信息</string>
+
+    <!-- PayActivity -->
+    <string name="unifiedorder_v3_wx">APP支付生成预支付订单</string>
+    <string name="pay__pre_by_wxap">生成APP微信支付参数</string>
+
+    <string name="pay_by_wxap">调起微信支付</string>
+    <string name="check_pay">检查微信版本是否支持支付</string>
+    <string name="input_reqkey">输入reqkey</string>
+    <string name="input_package_value">输入package value</string>
+    <string name="input_sign">输入sign</string>
+    <string name="getting_access_token">正在获取access token...</string>
+    <string name="get_access_token_succ">获取access token成功</string>
+    <string name="get_access_token_fail" formatted="false">获取access token失败，原因%s</string>
+    <string name="getting_prepayid">正在获取预支付订单...</string>
+    <string name="paying">支付中</string>
+    <string name="get_prepayid_succ">获取prepayid成功</string>
+    <string name="get_prepayid_fail" formatted="false">获取prepayid失败，原因%s</string>
+
+    <!-- WXPayEntryActivity -->
+    <string name="pay_result_tip">这个界面用于显示第三方app通过微信支付的结果</string>
+    <string name="pay_result_callback_msg" formatted="false">微信支付结果：%s</string>
+
+    <!-- BC-test -->
+    <string name="bc_pay" formatted="false">微信支付</string>
+    <string name="bc_pay_wx_title">微信支付</string>
+    <string name="bc_pay_goto_wx">打开微信支付</string>
+    <string name="title_activity_conmmodity_particulars">ConmmodityParticulars</string>
+    <string name="title_activity_my_shopping_set">MyShoppingSetActivity</string>
+    <string name="title_activity_my_shopping_personal_data">MyShoppingPersonalDataActivity</string>
+    <string name="title_activity_my_shopping_set_security">MyShoppingSetSecurityActivity</string>
+    <string name="title_activity_my_shopping_personal_data_qq">MyShoppingPersonalDataQQActivity</string>
+    <string name="title_activity_my_shopping_set_security_password">MyShoppingSetSecurityPasswordActivity</string>
+    <string name="title_activity_my_shopping_set_security_pay_password">MyShoppingSetSecurityPayPasswordActivity</string>
+    <string name="title_activity_my_shopping_set_security_phone">MyShoppingSetSecurityPhoneActivity</string>
+    <string name="title_activity_my_shopping_set_security_email">MyShoppingSetSecurityEmailActivity</string>
+    <string name="title_activity_my_shopping_set_security_email_next">MyShoppingSetSecurityEmailNextActivity</string>
+    <string name="title_activity_my_shopping_set_security_protect">MyShoppingSetSecurityProtectActivity</string>
+    <string name="title_activity_my_shopping_my_sun_list">MyShoppingMySunListActivity</string>
+    <string name="title_activity_my_shopping_record">MyShoppingRecordActivity</string>
+    <string name="title_activity_my_shopping_address_management">MyShoppingAddressManagementActivity</string>
+    <string name="title_activity_my_shopping_add_address">MyShoppingAddAddressActivity</string>
+    <string name="title_activity_my_shooping_recharge">MyShoopingRechargeActivity</string>
+    <string name="title_activity_my_shopping_account_details">MyShoppingAccountDetailsActivity</string>
+    <string name="title_activity_my_shopping_personal_information">MyShoppingPersonalInformationActivity</string>
+    <string name="title_activity_my_shopping_business_card">MyShoppingBusinessCardActivity</string>
+    <string name="title_activity_my_shopping_feedback">MyShoppingFeedbackActivity</string>
+    <string name="title_activity_my_shopping_about">MyShoppingAboutActivity</string>
+    <string name="title_activity_settlement">SettlementActivity</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_registered_one">RegisteredOneActivity</string>
+    <string name="title_activity_registered_two">RegisteredTwoActivity</string>
+    <string name="title_activity_find_password">FindPasswordActivity</string>
+    <string name="title_activity_amplification_image">AmplificationImageActivity</string>
+    <string name="title_activity_latest_particulars">LatestParticularsActivity</string>
+    <string name="title_activity_number_shopping">NumberShoppingActivity</string>
+    <string name="title_activity_set_password">SetPasswordActivity</string>
+    <string name="title_activity_my_shopping_personal_nick_name">MyShoppingPersonalNickNameActivity</string>
+    <string name="title_activity_my_shooping_personal_signature">MyShoopingPersonalSignatureActivity</string>
+    <string name="title_activity_announced_result">AnnouncedResultActivity</string>
+    <string name="title_activity_buy_code">BuyCodeActivity</string>
+    <string name="title_activity_record_all">RecordAllActivity</string>
+    <string name="title_activity_comments">CommentsActivity</string>
+    <string name="title_activity_calculation_details">CalculationDetailsActivity</string>
+    <string name="title_activity_search_two">SearchTwoActivity</string>
+    <string name="title_activity_web">WebActivity</string>
+    <string name="title_activity_graphic_details">GraphicDetailsActivity</string>
+    <string name="title_activity_my_shopping_get_goods">MyShoppingGetGoodsActivity</string>
+    <string name="title_activity_quota_prefecture">QuotaPrefectureActivity</string>
+    <string name="title_activity_comment_details">CommentDetailsActivity</string>
+    <string name="title_activity_pay_web_view">PayWebViewActivity</string>
+    <string name="title_activity_my_sun_list">MySunListActivity</string>
+    <string name="title_activity_guide_page">GuidePageActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_two_load">TwoLoadActivity</string>
+    <string name="title_activity_software_center">SoftwareCenterActivity</string>
+    <string name="title_activity_shortcut">ShortcutActivity</string>
+    <string name="title_activity_software_reward">SoftwareRewardActivity</string>
+    <string name="title_activity_friends_integeal">FriendsIntegealActivity</string>
+    <string name="title_activity_binding_phone">BindingPhoneActivity</string>
+    <string name="title_activity_protect">ProtectActivity</string>
+    <string name="title_activity_withdrawal">WithdrawalActivity</string>
+    <string name="title_activity_withdrawal_two">WithdrawalTwoActivity</string>
+    <string name="title_activity_prepaid_phone">PrepaidPhoneActivity</string>
+    <string name="title_activity_latest_announced_fragment">latestAnnouncedFragment</string>
+    <string name="share_invite_friends">1.邀请一名好友下载并安装全民搭会app,将获得1元现金,可用户商品购买</string>
+    <string name="share_invite_friends_two">2.邀请好友后,可免费获得好友购买商品所产生消费1%</string>
+</resources>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <com.wdys.android_learn.cusview.IndexViewPager
+        android:id="@+id/MainViewPager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/imageView2"
+        android:layout_alignParentLeft="true" >
+
+    </com.wdys.android_learn.cusview.IndexViewPager>
+        <LinearLayout
+            android:id="@+id/MainLinearLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/fifty"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/HomepageRelativeLayout"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:gravity="center" >
+
+                <RadioButton
+                    android:id="@+id/HomepageRadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/forty_five"
+                    android:button="@null"
+                    android:checked="true"
+                    android:drawableTop="@drawable/homepage_select"
+                    android:text="@string/homepage"
+                    android:paddingTop="4dp"
+                    android:gravity="center"
+                    android:textColor="@color/homepage_select_color"
+                    android:textSize="@dimen/eleven" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/AllCommodityRelativeLayout"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:gravity="center" >
+
+                <RadioButton
+                    android:id="@+id/AllCommodityRadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/forty_five"
+                    android:button="@null"
+                    android:paddingTop="4dp"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/all_commodity"
+                    android:text="@string/all_commodity"
+                    android:textColor="@color/homepage_select_color"
+                    android:textSize="@dimen/eleven" />
+            </RelativeLayout>
+
+            <!--<RelativeLayout-->
+            <!--android:id="@+id/LatestAnnouncedRelativeLayout"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:gravity="center" >-->
+
+            <!--<RadioButton-->
+            <!--android:id="@+id/LatestAnnouncedRadioButton"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="@dimen/forty_five"-->
+            <!--android:button="@null"-->
+            <!--android:paddingTop="4dp"-->
+            <!--android:gravity="center"-->
+            <!--android:drawableTop="@drawable/latest_announced_select"-->
+            <!--android:text="@string/software_center"-->
+            <!--android:textColor="@color/gray"-->
+            <!--android:textSize="@dimen/eleven" />-->
+            <!--</RelativeLayout>-->
+
+            <RelativeLayout
+                android:id="@+id/ShoppingCartRelativeLayout"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:gravity="center" >
+                <RadioButton
+                    android:id="@+id/ShoppingCartRadioButton"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/forty_five"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:paddingTop="4dp"
+                    android:layout_centerHorizontal="true"
+                    android:drawableTop="@drawable/shopping_cart"
+                    android:text="@string/shopping_cart"
+                    android:textColor="@color/homepage_select_color"
+                    android:textSize="@dimen/eleven" />
+
+                <TextView
+                    android:id="@+id/number"
+                    android:layout_width="@dimen/fifteen"
+                    android:layout_height="@dimen/fifteen"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/allgood_bottom_nav_person3x"
+                    android:gravity="center"
+                    android:layout_marginTop="@dimen/two"
+                    android:layout_marginBottom="@dimen/two"
+                    android:textColor="@color/white"
+                    android:layout_marginRight="@dimen/six"
+                    android:visibility="gone"
+                    android:textSize="@dimen/ten" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/MyShoppingRelativeLayout"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:gravity="center" >
+
+                <RadioButton
+                    android:id="@+id/MyShoppingRadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/forty_five"
+                    android:button="@null"
+                    android:paddingTop="4dp"
+                    android:gravity="center"
+                    android:drawableTop="@drawable/my_shopping_select"
+                    android:text="@string/my_shopping"
+                    android:textColor="@color/homepage_select_color"
+                    android:textSize="@dimen/eleven" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/MainLinearLayout"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/horizontal_xian" />
+</RelativeLayout>

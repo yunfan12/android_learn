@@ -7,11 +7,13 @@ import android.os.Handler;
 import android.os.Message;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
+import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import com.wdys.android_learn.BaseApplication;
 import com.wdys.android_learn.MainActivity;
 import com.wdys.android_learn.R;
 
@@ -27,9 +29,17 @@ public class NavigationActitity extends Activity {
     private List<ImageView> imageViews = new ArrayList<ImageView>();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        setContentView(R.layout.layout_navigation);
-        initView();
         super.onCreate(savedInstanceState);
+        if(!(BaseApplication.ISFIRST)){
+            setContentView(R.layout.layout_navigation);
+            initView();
+            BaseApplication.ISFIRST=true;
+        }else{
+            Intent start_page=new Intent(getApplicationContext(),StartPageActivity.class);
+            startActivity(start_page);
+        }
+
+
     }
     private void initView(){
         this.viewPager= (ViewPager) findViewById(R.id.navigate);

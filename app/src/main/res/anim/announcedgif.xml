@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false"
+    >
+    <item
+        android:drawable="@drawable/announce_calculate_ic_6p1"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/announce_calculate_ic_6p2"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/announce_calculate_ic_6p3"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/announce_calculate_ic_6p4"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/announce_calculate_ic_6p5"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/announce_calculate_ic_6p6"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/announce_calculate_ic_6p7"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/announce_calculate_ic_6p8"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/announce_calculate_ic_6p9"
+        android:duration="50" />
+</animation-list>

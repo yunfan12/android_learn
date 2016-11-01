@@ -1,6 +1,7 @@
 package com.wdys.android_learn.adapter;
 
 import android.content.Context;
+import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
@@ -9,6 +10,7 @@ import android.widget.TextView;
 
 import com.wdys.android_learn.R;
 import com.wdys.android_learn.pojo.Shop;
+import com.wdys.android_learn.util.ImageLoaderUtil;
 
 import java.util.ArrayList;
 
@@ -37,10 +39,10 @@ public class ShopAdapter  extends BaseAdapter{
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
+        convertView=View.inflate(context, R.layout.item_shop,null);
         this.holder= (ViewHolder) convertView.getTag();
         if(this.holder==null){
             holder=new ViewHolder();
-            convertView=View.inflate(context, R.layout.item_shop,null);
             convertView.setOnClickListener(listener);
             holder.shopPic= (ImageView) convertView.findViewById(R.id.goods_img);
             holder.title= (TextView) convertView.findViewById(R.id.goods_title);
@@ -49,8 +51,9 @@ public class ShopAdapter  extends BaseAdapter{
         ImageView shopimg=holder.shopPic;
         TextView shopTitle=holder.title;
         Shop item=shops.get(position);
-        //shopimg.setBackground();
-        //shopTitle.setText();
+        shopTitle.setText(shops.get(position).getTitle());
+        ImageLoaderUtil loader=new ImageLoaderUtil();
+        loader.ImageLoader(context,shops.get(position).getImg(),shopimg);
         return convertView;
     }
 
@@ -59,7 +62,8 @@ public class ShopAdapter  extends BaseAdapter{
         return shops.get(position);
     }
     //增加列表
-    public void AddMore(ArrayList<Shop> items){
+    public void addMore(ArrayList<Shop> items){
+        Log.i("Adapter","addData");
         this.shops.addAll(items);
         this.notifyDataSetChanged();
     }

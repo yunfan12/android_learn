@@ -2,10 +2,20 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent">
 
-    <ListView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/listView"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true" />
+    <com.handmark.pulltorefresh.library.PullToRefreshGridView
+        android:id="@+id/AllCommodityPullToRefreshGridView"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+
+        android:paddingLeft="@dimen/four"
+        android:paddingRight="@dimen/four"
+        android:background="@color/white"
+        android:verticalSpacing="@dimen/six"
+        android:horizontalSpacing="@dimen/six"
+        android:paddingTop="@dimen/ten"
+        android:cacheColorHint="#00000000"
+        android:listSelector="#00000000"
+        android:numColumns="2" >
+    </com.handmark.pulltorefresh.library.PullToRefreshGridView>
 </RelativeLayout>

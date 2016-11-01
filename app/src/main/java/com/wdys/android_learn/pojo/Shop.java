@@ -14,18 +14,18 @@ public class Shop {
 
     private String title;
 
-    public int getPrice() {
-        return price;
+    public String getImg() {
+        return img;
     }
 
-    public void setPrice(int price) {
-        this.price = price;
+    public void setImg(String price) {
+        this.img = price;
     }
 
-    private int price;
+    private String img;
 
-    public Shop(String title,int price){
+    public Shop(String title,String img){
         this.title=title;
-        this.price=price;
+        this.img=img;
     }
 }
